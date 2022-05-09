@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/rounded_corner"
+    android:layout_margin="@dimen/item_margin"
+    android:layout_height="wrap_content">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow>
+            <TextView android:layout_weight="1" android:textStyle="bold" android:textSize="16sp" android:layout_column="1" android:text="Title"/>
+            <TextView android:layout_weight="1"  android:textSize="16sp" android:layout_column="2" android:text="company" android:id="@+id/txtTitle"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView android:layout_weight="1" android:textStyle="bold" android:textSize="16sp" android:layout_column="1" android:text="Salary"/>
+            <TextView android:layout_weight="1"  android:textSize="16sp" android:layout_column="2" android:text="company" android:id="@+id/txtSalary"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:layout_weight="1" android:textStyle="bold" android:textSize="16sp" android:layout_column="1" android:text="Required Experience Level"/>
+            <TextView android:layout_weight="1"  android:textSize="16sp" android:layout_column="2" android:text="company" android:id="@+id/txtRequiredExperienceLevel"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:layout_weight="1" android:textStyle="bold" android:textSize="16sp" android:layout_column="1" android:text="Required Education Level"/>
+            <TextView android:layout_weight="1"  android:textSize="16sp" android:layout_column="2" android:text="company" android:id="@+id/txtRequiredEducationLevel"/>
+        </TableRow>
+
+
+    </TableLayout>
+
+</LinearLayout>

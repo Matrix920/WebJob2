@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:layout_height="fill_parent" xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.wms.mwt.e_wejob.view.AddJobActivity"
+    android:background="@drawable/bg_item"
+    android:fillViewport="true">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dip"
+        android:layout_centerVertical="true">
+
+        <EditText android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtTitle"
+            android:hint="@string/title"
+            android:layout_marginTop="5dip"
+            android:layout_marginBottom="20dip"
+            android:singleLine="true"/>
+
+        <EditText android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtSalary"
+            android:hint="@string/salary"
+            android:layout_marginTop="5dip"
+            android:inputType="number"
+            android:layout_marginBottom="20dip"
+            android:singleLine="true"/>
+
+
+        <EditText android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtRequiredEducationLevel"
+            android:hint="@string/required_education"
+            android:layout_marginTop="5dip"
+            android:layout_marginBottom="20dip"
+            android:singleLine="true"/>
+
+        <EditText android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtRequiredExperienceLevel"
+            android:hint="@string/required_experience"
+            android:layout_marginTop="5dip"
+            android:layout_marginBottom="20dip"
+            android:inputType="number"/>
+
+
+
+        <Button android:id="@+id/btnSaveJob"
+            android:layout_width="fill_parent"
+            android:onClick="saveCompany"
+            android:textColor="@android:color/white"
+            android:background="@color/colorAccent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:text="Save"/>
+    </LinearLayout>
+</LinearLayout>

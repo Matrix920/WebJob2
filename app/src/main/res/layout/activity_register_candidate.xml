@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.wms.mwt.e_wejob.view.RegisterCandidateActivity"
+    android:fillViewport="true">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:background="@drawable/bg_item">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dip"
+        android:layout_centerVertical="true">
+
+        <EditText android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtFullName"
+            android:hint="@string/full_name"
+            android:layout_marginTop="5dip"
+            android:layout_marginBottom="20dip"
+            android:singleLine="true"/>
+
+
+        <EditText android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtLogin"
+            android:hint="@string/login"
+            android:layout_marginTop="5dip"
+            android:layout_marginBottom="20dip"
+            android:singleLine="true"/>
+
+        <EditText android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtPassword"
+            android:hint="@string/password"
+            android:layout_marginTop="5dip"
+            android:layout_marginBottom="20dip"
+            android:singleLine="true"
+            android:inputType="textPassword"/>
+
+
+        <EditText android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtTel"
+            android:hint="@string/tel"
+            android:layout_marginTop="5dip"
+            android:layout_marginBottom="20dip"
+            android:inputType="number"/>
+
+
+        <EditText android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtExperienceYears"
+            android:inputType="number"
+            android:hint="@string/experience_years"
+            android:layout_marginTop="5dip"
+            android:layout_marginBottom="20dip"
+            android:singleLine="true"/>
+
+
+        <Button android:id="@+id/btnRegister"
+            android:layout_width="fill_parent"
+            android:onClick="saveCandidate"
+            android:textColor="@android:color/white"
+            android:background="@color/colorAccent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:text="Save"/>
+
+        <Button android:id="@+id/btnLogin"
+            android:layout_width="fill_parent"
+            android:onClick="login"
+            android:textColor="@android:color/white"
+            android:background="@color/colorAccent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:text="Login"/>
+    </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

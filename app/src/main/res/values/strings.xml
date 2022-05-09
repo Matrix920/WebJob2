@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">E_WeJob</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="full_name">Full Name</string>
+    <string name="experience_years">Experience Years</string>
+    <string name="tel">Tel</string>
+    <string name="c_name">Company Name</string>
+    <string name="diploma_title">Diploma Title</string>
+    <string name="title">Title</string>
+    <string name="salary">Salary</string>
+    <string name="required_education">Required Education Level</string>
+    <string name="required_experience">Required Experience Level</string>
+    <string name="suitable_candidates">Suitable Candidates</string>
+    <string name="new_job">New Job</string>
+    <string name="new_company">New Company</string>
+    <string name="new_diploma">New Diploma</string>
+    <string name="register_candidate">Register Candidate</string>
+    <string name="candidate">Candidate</string>
+    <string name="copmay">Company</string>
+    <string name="admin">Administrator</string>
+    <string name="education_sort">Education Sorting</string>
+    <string name="experience_sort">Experience Sorting</string>
+    <string name="empty">some fields are empty!!!</string>
+    <string name="success">Saved</string>
+    <string name="error">Error!! Not Saved</string>
+    <string name="registered">You have been registered successfully</string>
+    <string name="registerd_error">Error!! You didnt registered</string>
+
+</resources>
